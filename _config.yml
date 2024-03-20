@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : #""
+title                    : "tmdwns29's blog"
 title_separator          : "|"
 subtitle                 : #"Information Technology"
 name                     : "YooSeungJun"
@@ -30,9 +30,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "tmdwns29"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "YooSeungJun"
-  avatar           : "/assets/images/avatar.jpg"
+  avatar           : "/assets/images/ysj2.jpg"
   bio              : "저의 개발 블로그입니다"
   location         : "South Korea"
   email            :
@@ -140,7 +140,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url:  "https://github.com/tmdwns29"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -287,7 +287,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
       show_date: true
