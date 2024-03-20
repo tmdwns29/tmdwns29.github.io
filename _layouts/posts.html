@@ -1,8 +1,15 @@
 ---
 layout: archive
 ---
-
-{{ content }}
+<script src="https://utteranc.es/client.js"
+        repo="tmdwns29/blog_comments"
+        issue-term="pathname"
+        label="✨💬comments✨"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<!--{{ content }}
 
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
@@ -27,4 +34,4 @@ layout: archive
     </div>
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
-{% endfor %}
+{% endfor %}-->
