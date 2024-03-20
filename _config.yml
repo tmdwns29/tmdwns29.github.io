@@ -23,7 +23,7 @@ name                     : "YooSeungJun"
 description              : "tmdwns29's Blog"
 url                      : "https://tmdwns29.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "tmdwns29/tmdwns29"
+repository               : "tmdwns29/blog_comments"
 teaser                   : "/assets/images/grass.jpg"
 logo                     : "/assets/images/logo4.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
