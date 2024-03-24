@@ -8,3 +8,7 @@ CHANGELOG.md                    text merge=union
 docs/_docs/18-history.md        text merge=union
 
 *.md                            text
+
+* linguist-vendored
+*.html linguist-vendored=false
+*.scss linguist-vendored=false
