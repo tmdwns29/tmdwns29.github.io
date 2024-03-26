@@ -1,5 +1,5 @@
 # main links
-main:
+main: # 상단 메뉴바
   - title: "Category"
     url: /categories/
   - title: "Tag"
@@ -7,7 +7,7 @@ main:
   - title: "Search"
     url: /search/
 
-docs:
+docs: # 게시물 페이지 사이드 메뉴바
   - title: "CONTENT"
     children:
       - title: "Category"
