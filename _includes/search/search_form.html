@@ -16,6 +16,16 @@
     </label>
     <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
   </form>
+
+  <form action="/your-form-handler" method="POST">
+    <!-- 다른 form 필드들 -->
+    <div class="g-recaptcha" data-sitekey="6LcXCjgqAAAAAIDTqmyWKGbYrwP1M-DsEzfu2yi8"></div>
+    <input type="submit" value="Submit">
+  </form>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+
   <div id="results" class="results">
     <gcse:searchresults-only></gcse:searchresults-only>
   </div>
